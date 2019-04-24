@@ -1,0 +1,13 @@
+x = input('x:')
+y = input('y:')
+z = input('请选择+ or - or * or /:')
+if z == '+':
+    print(float(x)+float(y))
+elif z == '-':
+    print(float(x)-float(y))
+elif z == '*':
+    print(float(x)*float(y))
+elif z == '/':
+    print(float(x)/float(y))
+elif z != '+' or '-' or '*' or '/':
+    print('Error')
